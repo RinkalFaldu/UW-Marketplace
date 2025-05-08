@@ -46,7 +46,7 @@ function Stationery() {
                         description='Notebooks, pens, and all your writing essentials'
                     />
                     <div className='grid-container'>
-                        <BoxContainer />
+                        
                         {!!products ? products.slice(0, 3).map(product=>{
                             const productData = product.data();
                             const imageUrl = productData['imageUrl'];
